@@ -50,14 +50,18 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
         vendor/samsung/d2lte/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
         vendor/samsung/d2lte/proprietary/bin/netmgrd:system/bin/netmgrd \
+        vendor/samsung/d2lte/proprietary/bin/sec-ril:system/bin/sec-ril \
         vendor/samsung/d2lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
         vendor/samsung/d2lte/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/samsung/d2lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
         vendor/samsung/d2lte/proprietary/bin/rild:system/bin/rild \
+        vendor/samsung/d2lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
         vendor/samsung/d2lte/proprietary/lib/libqmi.so:system/lib/libqmi.so \
         vendor/samsung/d2lte/proprietary/lib/libqdi.so:system/lib/libqdi.so \
         vendor/samsung/d2lte/proprietary/lib/libqdp.so:system/lib/libqdp.so \
         vendor/samsung/d2lte/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+        vendor/samsung/d2lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+        vendor/samsung/d2lte/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
         vendor/samsung/d2lte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
         vendor/samsung/d2lte/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
         vendor/samsung/d2lte/proprietary/lib/libidl.so:system/lib/libidl.so \
@@ -131,12 +135,14 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_murata_b2:system/etc/wifi/nvram_net.txt_murata_b2 \
         vendor/samsung/d2lte/proprietary/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
         vendor/samsung/d2lte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+        vendor/samsung/d2lte/proprietary/blobs/r530/lib/libril-qc-qmi-1.so:system/blobs/r530/lib/libril-qc-qmi-1.so \
+        vendor/samsung/d2lte/proprietary/blobs/r530/lib/libril.so:system/blobs/r530/lib/libril.so \
+        vendor/samsung/d2lte/proprietary/blobs/spr/lib/libril-qc-qmi-1.so:system/blobs/spr/lib/libril-qc-qmi-1.so \
+        vendor/samsung/d2lte/proprietary/blobs/spr/lib/libril.so:system/blobs/spr/lib/libril.so \
+        vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libril-qc-qmi-1.so:system/blobs/vzw/lib/libril-qc-qmi-1.so \
+        vendor/samsung/d2lte/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
         vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libril-qc-qmi-1.so:system/blobs/gsm/lib/libril-qc-qmi-1.so \
-        vendor/samsung/d2lte/proprietary/lib/libril.so:system/lib/libril.so \
-	vendor/samsung/d2lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-	vendor/samsung/d2lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	vendor/samsung/d2lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/samsung/d2lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/samsung/d2lte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
         vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
         vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334_murata.hcd:system/vendor/firmware/bcm4334_murata.hcd \
         vendor/samsung/d2lte/proprietary/vendor/firmware/bcm4334_semco.hcd:system/vendor/firmware/bcm4334_semco.hcd
